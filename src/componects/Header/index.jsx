@@ -1,0 +1,24 @@
+import { Link } from "react-router-dom"
+import './Header.css'
+
+const index = () => {
+  return (
+    <nav>
+        <div className="contianer">
+            <ul className="nav-wrapper">
+                <li>
+                    <Link to="/">Home</Link>
+                </li>
+                <li>
+                    <Link to="/about">About</Link>
+                </li>
+                <li>
+                    <Link to="/contact">Contact</Link>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  )
+}
+
+export default index
